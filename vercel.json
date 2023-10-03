@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/"
+      "destination": "https://bakery-management-api.onrender.com/"
     }
   ]
 }
