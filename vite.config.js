@@ -10,13 +10,13 @@ export default defineConfig({
     },
   },
   plugins: [react()],
-  server: {
-    proxy: {
-      "/api": {
-        // target: "http://localhost:5000",
-        target: "https://bakery-management-api.onrender.com/",
-        changeOrigin: true,
-      },
-    },
-  },
+  // server: {
+  //   proxy: {
+  //     "/api": {
+  //       // target: "http://localhost:5000",
+  //       target: "https://bakery-management-api.onrender.com/",
+  //       changeOrigin: true,
+  //     },
+  //   },
+  // },
 });
