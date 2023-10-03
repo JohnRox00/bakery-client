@@ -21,7 +21,7 @@ export default function Login() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    let url = "https://bakery-management-api.onrender.com/api/v1/auth/login";
+    let url = "/api/v1/auth/login";
     let requestOptions = {
       method: "POST",
       headers: {
