@@ -25,6 +25,7 @@ export default function Login() {
     let requestOptions = {
       method: "POST",
       headers: {
+        Accept: "application/json",
         "content-type": "application/json",
       },
       body: JSON.stringify({ email, password }),
