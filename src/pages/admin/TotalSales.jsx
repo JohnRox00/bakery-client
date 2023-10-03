@@ -64,7 +64,7 @@ const TotalSales = () => {
       const { data } = await res.json();
       setMonthlySales(data);
     } catch (err) {
-      console.log(err.error.message || err.message);
+      console.log(err?.error?.message || err?.message);
     }
   };
 
