@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/api/(.*)",
-      "destination": "https://bakery-management-api.onrender.com/api/*"
+      "source": "/api/:path*",
+      "destination": "https://bakery-management-api.onrender.com/api/:path*"
     }
   ]
 }
