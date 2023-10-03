@@ -13,7 +13,7 @@ const PrivateRoute = () => {
   const authCheck = async () => {
     let url = "/api/v1/auth/user-auth";
     let requestOptions = {
-      method: "GET",
+      method: "POST",
       credentials: "include",
     };
     try {

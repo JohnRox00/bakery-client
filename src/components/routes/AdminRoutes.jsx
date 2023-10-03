@@ -13,7 +13,7 @@ const AdminRoute = () => {
   const authCheck = async () => {
     let url = "/api/v1/auth/admin-auth";
     let requestOptions = {
-      method: "GET",
+      method: "POST",
       credentials: "include",
     };
     try {
