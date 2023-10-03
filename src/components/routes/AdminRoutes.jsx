@@ -24,7 +24,7 @@ const AdminRoute = () => {
         setOk(false);
       }
     } catch (err) {
-      console.log(err.error.message);
+      console.log(err?.error?.message);
     }
   };
   return ok ? <Outlet /> : <Spinner path="" />;

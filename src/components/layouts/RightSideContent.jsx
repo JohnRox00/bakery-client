@@ -50,7 +50,7 @@ const RightSideContent = () => {
         dispatch(removeFromCart(item));
       }
     } catch (err) {
-      console.log(err.error.message || err.error);
+      console.log(err?.error?.message || err?.error);
     }
   };
 

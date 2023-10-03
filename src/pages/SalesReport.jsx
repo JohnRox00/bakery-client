@@ -67,7 +67,7 @@ const SalesReport = () => {
                   </TableRow>
                 </TableHead>
                 <TableBody>
-                  {sales.map((sale) => (
+                  {sales?.map((sale) => (
                     <TableRow
                       key={sale._id}
                       sx={{ "&:last-child td, &:last-child th": { border: 0 } }}

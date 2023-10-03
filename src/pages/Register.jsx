@@ -41,7 +41,7 @@ export default function Register() {
         navigate("/");
       }
     } catch (err) {
-      console.log(err.error.message || err.error);
+      console.log(err?.error?.message || err?.error);
     }
   };
 

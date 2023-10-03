@@ -38,7 +38,7 @@ const Sidebar = () => {
         navigate("/");
       }
     } catch (err) {
-      console.log(err.error.message);
+      console.log(err?.error?.message);
     }
   };
   return (

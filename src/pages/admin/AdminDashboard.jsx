@@ -26,7 +26,7 @@ const AdminDashboard = () => {
       const { data } = await res.json();
       setMonthlyAllBranchSales(data);
     } catch (err) {
-      console.log(err.error.message || err.message);
+      console.log(err?.error?.message || err?.message);
     }
   };
 

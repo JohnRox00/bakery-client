@@ -70,7 +70,7 @@ const ProductForm = ({ fetchProducts, editProduct }) => {
         location.reload();
       }
     } catch (err) {
-      console.log(err.error.message || err);
+      console.log(err?.error?.message || err);
     }
   };
 

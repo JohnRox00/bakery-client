@@ -47,7 +47,7 @@ const PosModalForm = ({ open, handleClose, editProduct }) => {
         handleClose(true);
       }
     } catch (err) {
-      console.log(err.error.message || err.error);
+      console.log(err?.error?.message || err?.error);
     }
   };
 

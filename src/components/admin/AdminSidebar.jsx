@@ -36,7 +36,7 @@ const AdminSidebar = ({ users }) => {
         navigate("/");
       }
     } catch (err) {
-      console.log(err.error.message);
+      console.log(err?.error?.message);
     }
   };
 

@@ -39,7 +39,7 @@ const Products = () => {
       const { data } = await res.json();
       setProducts(data);
     } catch (err) {
-      console.log(err.error.message || err.message);
+      console.log(err?.error?.message || err?.message);
     }
   };
 
@@ -58,7 +58,7 @@ const Products = () => {
         fetchProducts();
       }
     } catch (err) {
-      console.log(err.error.message || err);
+      console.log(err?.error.message || err?.message);
     }
   };
   return (

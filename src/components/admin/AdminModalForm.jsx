@@ -56,7 +56,7 @@ const AdminModalForm = ({ open, handleClose, editUser }) => {
           console.log(data);
         }
       } catch (err) {
-        console.log(err.error.message || err.error);
+        console.log(err?.error?.message || err?.error);
       }
     }
   };

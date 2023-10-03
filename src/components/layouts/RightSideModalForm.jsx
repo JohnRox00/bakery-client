@@ -46,7 +46,7 @@ const RightSideModalForm = ({ editProduct, handleClose, open }) => {
         dispatch(updateCart({ ...form }));
       }
     } catch (err) {
-      console.log(err.error.message || err.error);
+      console.log(err?.error?.message || err?.error);
     }
   };
 

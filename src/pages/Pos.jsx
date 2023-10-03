@@ -34,7 +34,7 @@ const Pos = () => {
       const { data } = await res.json();
       setProducts(data);
     } catch (err) {
-      console.log(err.error.message || err.message);
+      console.log(err?.error.message || err?.message);
     }
   };
 

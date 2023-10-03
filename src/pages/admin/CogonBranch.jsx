@@ -39,7 +39,7 @@ const CogonBranch = () => {
       const { data } = await res.json();
       setAllSales(data);
     } catch (err) {
-      console.log(err.error.message || err.message);
+      console.log(err?.error?.message || err?.message);
     }
   };
 
