@@ -29,7 +29,7 @@ const TotalSalesChartForTotalSalePage = ({ dataSales }) => {
         <ArgumentScale factory={scaleBand} />
         <ArgumentAxis />
         <ValueAxis />
-        <BarSeries valueField="totalSales" argumentField="day" />
+        <BarSeries valueField="totalSales" argumentField="month" />
         <Animation />
         <EventTracker />
         <Tooltip />
